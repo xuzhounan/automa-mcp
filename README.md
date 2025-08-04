@@ -93,6 +93,10 @@ Thanks to everyone who has submitted issues, made suggestions, and generally hel
   <img src="https://contrib.rocks/image?repo=AutomaApp/automa" />
 </a>
 
+## MCP Server
+
+This repository includes an MCP (Model Context Protocol) server that enables Claude Code to control Automa browser automation through natural language. See [mcp-server/README.md](./mcp-server/README.md) for setup and usage instructions.
+
 ## License
 Source code in this repository is variously licensed under the GNU Affero General Public License (AGPL), or the [Automa Commercial License](https://extension.automa.site/license/commercial/).
 
