@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "automa": {
+      "command": "node",
+      "args": ["{{REPLACE_WITH_FULL_PATH}}/automa-mcp/mcp-server/src/index.js"],
+      "env": {}
+    }
+  }
+}

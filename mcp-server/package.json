@@ -1,0 +1,23 @@
+{
+  "name": "automa-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for controlling Automa browser automation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/simple-test.js"
+  },
+  "keywords": ["mcp", "automa", "browser-automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "puppeteer-core": "^23.10.0",
+    "chrome-launcher": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
